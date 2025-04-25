@@ -1,5 +1,6 @@
-import 'package:monkey/monkey.dart' as monkey;
+import 'package:monkey/monkey.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${monkey.calculate()}!');
+void main() {
+  Token t = Token(type: TokenType.assign, literal: "=");
+  print(t);
 }
